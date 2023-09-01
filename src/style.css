@@ -1,4 +1,6 @@
 .heading{
-    color: moccasin;
+    color: white;
     background-color: brown;
+    padding:10px;
+    margin: 20px;
 }
