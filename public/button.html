@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sub{
+            background-color:rgb(241, 10, 10);
+            color:white;
+            font-size:18px;
+            height:38px;
+            border:none;
+            width: 120px;
+            border-radius:2px;
+            cursor:pointer;
+            transition: opacity 1s;
+        }
+        .sub:hover{
+            background-color:rgb(161, 12, 12);
+            opacity: 0.8;
+        }
+        .sub:active{
+            /* background-color:yellow; */
+            opacity: 0.5;
+        }
+        .join{
+            background-color:white;
+            color:rgb(16, 130, 196);
+            height:38px;
+            width:80px;
+            font-size:18px;
+            border-color:rgb(16, 130, 196);;
+            border-style:solid;
+            border-width: 1px;
+            border-radius: 2px;
+            margin-left:15px;
+            cursor:pointer;
+            opacity:background-color 0.15s,color 0.15s;
+        }
+        .join:hover{
+            background-color:rgb(16, 130, 196);;
+            color:white;
+            opacity: 0.8;
+            
+        }
+        .join:active{
+            opacity:0.7;
+        }
+        .tweet{
+            color:white;
+            background-color:rgb(16, 130, 196);
+            height:38px;
+            width:80px;
+            border:none;
+            font-weight:bold;
+            font-size:15px;
+            border-radius:20px;
+            margin-left:15px;
+            cursor:pointer;
+           
+        }
+        .tweet:hover{
+            box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+            transition:box-shadow 0.5s
+        }
+        .uber{
+            background-color:black;
+            color:white;
+            padding:10px;
+            border:12px solid gray;
+            font-size:19px;
+            margin-left:10px;
+            height:70px;
+            width:200px;
+
+            
+        }
+        .amazon{
+               color:black;
+               background-color:rgb(201, 201, 5);
+               font-size:15px;
+               margin-left:10px;
+               border: 10px solid gray;
+               padding:10px;
+               height:70px;
+               width:250px;
+               font-size:20px;
+        
+        }
+        .addtocart{
+            border-radius: 60px;
+            background: transparent;
+            
+        }
+    </style>
+</head>
+<body>
+        <button class="sub">Subscribe</button>
+        <button class="join">Join</button>
+        <button class="tweet">Tweet</button>
+        <button class="uber">Request now</button>
+        <button class="amazon">
+            <span class="addtocart">Add to Cart</span>
+        </button>
+</body>
+</html>
