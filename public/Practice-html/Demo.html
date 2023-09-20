@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .thumbnail{
+            width:400px;
+            height:400px;
+            /* object-fit:cover; */
+            /* object-position:right; */
+            
+            border: 1px solid black;
+            object-fit:contain;
+            object-position:top;
+       
+        }
+        .img1{
+              width:400px;
+              height:300px;
+              border:5px solid red;
+             
+              /* border-radius:30px; */
+              border-top-left-radius:30px;
+              border-top-right-radius:30px;
+              border-bottom-left-radius:30px;
+              border-bottom-right-radius:30px;
+
+        }
+        .img2{
+              width:400px;
+              height:300px;
+              margin-left:100px;
+              border:5px solid red;
+        }
+        .img3{
+              width:300px;
+              height:300px;
+              margin-left:100px;
+              border:5px solid red;
+              border-radius:50%
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo Class</h1>
+    <img class="thumbnail" src="https://images.saymedia-content.com/.image/t_share/MTk3OTQ0MDc2Mjc4OTY2MTM0/grammar_in_person.jpg" />
+    <div style="margin:100px;">
+        <img class="img1" src="https://assets.editorial.aetnd.com/uploads/2021/10/black-cat-gettyimages-901574784.jpg?width=800&height=400&crop=1&w=800&h=400&q=100" />
+        <img class="img2" src="https://assets.editorial.aetnd.com/uploads/2021/10/black-cat-gettyimages-901574784.jpg?width=800&height=400&crop=1&w=800&h=400&q=100" />
+        <img class="img3" src="https://assets.editorial.aetnd.com/uploads/2021/10/black-cat-gettyimages-901574784.jpg?width=800&height=400&crop=1&w=800&h=400&q=100" />
+    </div>
+</body>
+</html>
